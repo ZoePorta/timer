@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <h1></h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <form>
+        <fieldset>
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" />
+        </fieldset>
+        <fieldset>
+          <label for="date">Fecha:</label>
+          <input type="datetime-local" name="date" id="date" />
+        </fieldset>
 
-  <script src="main.js"></script>
-</body>
+        <button>Añadir</button>
+      </form>
+      <button id="clean">Limpiar</button>
+    </header>
+    <main>
+      <ul></ul>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
 </html>
