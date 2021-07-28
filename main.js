@@ -33,10 +33,10 @@ function newDateHandler(e) {
   let { date, name } = form;
   date = date.value;
   name = name.value;
-  if (!date || !name) {
+  /*   if (!date || !name) {
     alert("Debes introducir un numbre y una fecha válidos");
     return;
-  }
+  } */
 
   dates.push({ name, date });
 
