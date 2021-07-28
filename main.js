@@ -40,6 +40,9 @@ function newDateHandler(e) {
 
   dates.push({ name, date });
 
+  form.date.value = "";
+  form.name.value = "";
+
   localStorage.setItem("dates", JSON.stringify(dates));
   uploadTimer();
 }
